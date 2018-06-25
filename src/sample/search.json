@@ -1,0 +1,526 @@
+[
+    {
+        "id": 3479,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Délé",
+        "syllables": "ọ-jẹ̀-dé-lé",
+        "meaning": "The masquerade has arrived home.",
+        "extendedMeaning": "This name is commonly borne by the custodian family of masquerades (Òjè).",
+        "morphology": "ọ̀jẹ̀-dé-ilé",
+        "geoLocation": [
+            {
+                "place": "GENERAL",
+                "region": "GENERAL"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "adeloyeayotunde@yahoo.com",
+        "etymology": [
+            {
+                "part": "̀ọ̀jẹ̀",
+                "meaning": "masquerade"
+            },
+            {
+                "part": "dé",
+                "meaning": "arrive"
+            },
+            {
+                "part": "ilé",
+                "meaning": "house, home"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2016,
+            7,
+            2,
+            21,
+            2,
+            12,
+            26000000
+        ],
+        "updatedAt": [
+            2016,
+            7,
+            3,
+            12,
+            20,
+            22,
+            965000000
+        ],
+        "name": "Ọ̀jèdélé"
+    },
+    {
+        "id": 3496,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Kúdẹti",
+        "syllables": "kú-dẹ-lẹ́-tì",
+        "meaning": "Death becomes impossible.",
+        "extendedMeaning": null,
+        "morphology": "(i)-kú-di-ẹlẹ́tì",
+        "geoLocation": [
+            {
+                "place": "IBADAN",
+                "region": "NWY"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "project@yorubaname.com",
+        "etymology": [
+            {
+                "part": "ikú",
+                "meaning": "death"
+            },
+            {
+                "part": "di",
+                "meaning": "become"
+            },
+            {
+                "part": "ẹlẹ́tì",
+                "meaning": "impossibility"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2016,
+            7,
+            5,
+            20,
+            42,
+            10,
+            652000000
+        ],
+        "updatedAt": [
+            2016,
+            7,
+            6,
+            18,
+            36,
+            36,
+            901000000
+        ],
+        "name": "Kúdẹlẹ́tì"
+    },
+    {
+        "id": 3993,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Délé, Ládélé",
+        "syllables": "o-lá-dé-lé",
+        "meaning": "Wealth arrives home.",
+        "extendedMeaning": null,
+        "morphology": "Ọlá-dé-ilé",
+        "geoLocation": [
+            {
+                "place": "GENERAL",
+                "region": "GENERAL"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "nurudeenlawal.2012@gmail.com",
+        "etymology": [
+            {
+                "part": "ọlá",
+                "meaning": "wealth"
+            },
+            {
+                "part": "dé",
+                "meaning": "arrive"
+            },
+            {
+                "part": "ilé",
+                "meaning": "home, house"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2016,
+            8,
+            9,
+            10,
+            54,
+            58,
+            974000000
+        ],
+        "updatedAt": [
+            2016,
+            8,
+            9,
+            15,
+            10,
+            51,
+            954000000
+        ],
+        "name": "Ọládélé"
+    },
+    {
+        "id": 6751,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Mọ́délé, Délé",
+        "syllables": "ọ-mọ́-dé-lé",
+        "meaning": "The child is home.",
+        "extendedMeaning": null,
+        "morphology": "ọmọ-dé-ilé",
+        "geoLocation": [
+            {
+                "place": "GENERAL",
+                "region": "GENERAL"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "bukibassey@gmail.com",
+        "etymology": [
+            {
+                "part": "ọmọ",
+                "meaning": "child"
+            },
+            {
+                "part": "dé",
+                "meaning": "arrive"
+            },
+            {
+                "part": "ilé",
+                "meaning": "house, home"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2018,
+            1,
+            30,
+            5,
+            4,
+            8,
+            863000000
+        ],
+        "updatedAt": [
+            2018,
+            5,
+            19,
+            19,
+            21,
+            51,
+            976000000
+        ],
+        "name": "Ọmọ́délé"
+    },
+    {
+        "id": 6764,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Délé",
+        "syllables": "o-mí-dé-lé",
+        "meaning": "Water (in form of this child) has arrived home.",
+        "extendedMeaning": null,
+        "morphology": "omi-dé-ilé",
+        "geoLocation": [
+            {
+                "place": "GENERAL",
+                "region": "GENERAL"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "bukibassey@gmail.com",
+        "etymology": [
+            {
+                "part": "omi",
+                "meaning": "water, river"
+            },
+            {
+                "part": "dé",
+                "meaning": "arrive, reach (destination)"
+            },
+            {
+                "part": "ilé",
+                "meaning": "house, home"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2018,
+            1,
+            30,
+            5,
+            4,
+            16,
+            743000000
+        ],
+        "updatedAt": [
+            2018,
+            2,
+            6,
+            10,
+            30,
+            26,
+            221000000
+        ],
+        "name": "Omídélé"
+    },
+    {
+        "id": 406,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Bándélé, Delé",
+        "syllables": "bá-mi-dé-lé",
+        "meaning": "Follow me home.",
+        "extendedMeaning": null,
+        "morphology": "bá-mi-dé-ilé",
+        "geoLocation": [
+            {
+                "place": "GENERAL",
+                "region": "GENERAL"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "Not Available",
+        "etymology": [
+            {
+                "part": "bá",
+                "meaning": "help, together with"
+            },
+            {
+                "part": "mi",
+                "meaning": "me"
+            },
+            {
+                "part": "dé",
+                "meaning": "arrive at"
+            },
+            {
+                "part": "ilé",
+                "meaning": "home, house"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2016,
+            1,
+            7,
+            21,
+            18,
+            4,
+            770000000
+        ],
+        "updatedAt": [
+            2016,
+            7,
+            28,
+            13,
+            8,
+            44,
+            78000000
+        ],
+        "name": "Bámidélé"
+    },
+    {
+        "id": 3699,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": null,
+        "syllables": "ọ-dẹ-ẹ́-rìn-dé",
+        "meaning": "The hunter has returned on foot.",
+        "extendedMeaning": "A NOTE ON VOWEL ELISION\n\nThe phonological characteristic of the second syllable in this name is interesting. The second syllable, on the surface, has a high tone. But on examination, we find that an elision has taken place to replace the last vowel in \"ọdẹ\" with the contiguous high-tonal vowel marking the perfect tense (which has now been deleted). This is why the word for hunter, which otherwise has two mid tones /ọ-dẹ/, can be realised, in the full context of the name, as a mid and a high /ọ-dẹ́.../",
+        "morphology": "ọdẹ-(ẹ́)-rìn-dé",
+        "geoLocation": [
+            {
+                "place": "ABEOKUTA",
+                "region": "NWY"
+            },
+            {
+                "place": "GENERAL",
+                "region": "GENERAL"
+            }
+        ],
+        "famousPeople": "Dr. Victor Ọdẹ́rìndé, Houston Doctor/Psychiatrist",
+        "inOtherLanguages": null,
+        "media": "https://www.healthgrades.com/physician/dr-victor-oderinde-xkh3c",
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "adekunleoderinde@gmail.com",
+        "etymology": [
+            {
+                "part": "ọdẹ",
+                "meaning": "hunter"
+            },
+            {
+                "part": "ẹ́",
+                "meaning": "PRF (perfect tense marker, equivalent to ó and ti)"
+            },
+            {
+                "part": "rìn",
+                "meaning": "walk"
+            },
+            {
+                "part": "dé",
+                "meaning": "arrive, return"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2016,
+            7,
+            19,
+            21,
+            16,
+            33,
+            391000000
+        ],
+        "updatedAt": [
+            2016,
+            7,
+            22,
+            10,
+            54,
+            42,
+            476000000
+        ],
+        "name": "Ọdérìndé"
+    },
+    {
+        "id": 6540,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": "Mánárẹ",
+        "syllables": "má-nàá-rẹ",
+        "meaning": "Why don't you believe in yourself (and not say you have others on whom to depend)?",
+        "extendedMeaning": "\"The name, Mánáarẹ--a poor approximation that elides the complex tone glides to which the Roman alphabet is deaf--cannot but catch my attention because it recalls childhood memories of striking characters so named in Imuṣin, the Ìjẹ̀bú town in which I was raised, and also because it is not in standard, Ọ̀yọ́ centered, dialect of written Yorùbà. In Ìjẹ̀bú dialect, the brave hunter's name is a shortened form of a longer admonition to those who are unnecessarily exuberant about (or reliant upon) social connections, \"mánáárẹ, kó fọ́ wo nọ́ni.\" The poetry of the sentence follows an ironic formulation. We can interpret it roughly as \"shouldn't you claim your own self first before boasting of your access to others.\" Of course, it could also be used to put down a boisterous rival.\" - Professor Adelékè Adéẹ̀kọ́",
+        "morphology": "má-ní-ara-rẹ",
+        "geoLocation": [
+            {
+                "place": "IJEBU",
+                "region": "CY"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "project@yorubaname.com",
+        "etymology": [
+            {
+                "part": "má",
+                "meaning": "do not [used ironically]"
+            },
+            {
+                "part": "ní",
+                "meaning": "own"
+            },
+            {
+                "part": "ara",
+                "meaning": "body"
+            },
+            {
+                "part": "rẹ",
+                "meaning": "yours"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2018,
+            1,
+            3,
+            17,
+            33,
+            35,
+            328000000
+        ],
+        "updatedAt": [
+            2018,
+            1,
+            3,
+            19,
+            34,
+            49,
+            441000000
+        ],
+        "name": "Mánàárẹ"
+    },
+    {
+        "id": 6542,
+        "pronunciation": null,
+        "ipaNotation": null,
+        "variants": null,
+        "syllables": "má-ná-rẹ",
+        "meaning": "See: Mánáárẹ.",
+        "extendedMeaning": "\"The name, Mánáarẹ--a poor approximation that elides the complex tone glides to which the Roman alphabet is deaf--cannot but catch my attention because it recalls childhood memories of striking characters so named in Imuṣin, the Ìjẹ̀bú town in which I was raised, and also because it is not in standard, Ọ̀yọ́ centered, dialect of written Yorùbà. In Ìjẹ̀bú dialect, the brave hunter's name is a shortened form of a longer admonition to those who are unnecessarily exuberant about (or reliant upon) social connections, \"mánáarẹ, kó í fọ wò nọ́ni.\" The poetry of the sentence follows an ironic formulation. We can interpret it roughly as \"shouldn't you claim your own self first before boasting of your access to others.\" Of course, it could also be used to put down a boisterous rival.\" - Professor Adelékè Adéẹ̀kọ́",
+        "morphology": "má-ní-ara-ẹ",
+        "geoLocation": [
+            {
+                "place": "IJEBU",
+                "region": "CY"
+            }
+        ],
+        "famousPeople": null,
+        "inOtherLanguages": null,
+        "media": null,
+        "tonalMark": null,
+        "tags": null,
+        "submittedBy": "project@yorubaname.com",
+        "etymology": [
+            {
+                "part": "má",
+                "meaning": "do not (used ironically)"
+            },
+            {
+                "part": "ní",
+                "meaning": "have"
+            },
+            {
+                "part": "ara",
+                "meaning": "body"
+            },
+            {
+                "part": "rẹ",
+                "meaning": "yours"
+            }
+        ],
+        "state": "PUBLISHED",
+        "createdAt": [
+            2018,
+            1,
+            3,
+            17,
+            33,
+            35,
+            338000000
+        ],
+        "updatedAt": [
+            2018,
+            1,
+            3,
+            19,
+            18,
+            4,
+            613000000
+        ],
+        "name": "Mánárẹ"
+    }
+]
