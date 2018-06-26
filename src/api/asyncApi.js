@@ -18,19 +18,31 @@ const setAsync = (key, value) => {
 }
 
 const getPageAsync = () => {
-    return getAsync(pageKey).then(page => page).catch(err => {});
+    return new Promise((resolve, reject) => {
+        return getAsync(pageKey).then(page => resolve(page)).catch(err => reject(err));
+
+    })
 }
 
 const setPageAsync = (page) => {
-    return setAsync(pageKey, page);
+    return new Promise((resolve, reject) => {
+        return setAsync(pageKey, page).then(() => resolve()).catch(err => reject(err));
+    })
+    
 }
 
 const getNamesAsync  = () => {
-    return getAsync(namesKey).then(names => names).catch(err => {});
+    return new Promise((resolve, reject) => {
+        return getAsync(namesKey).then(names => resolve(names)).catch(err => reject(err));
+    })
+    
 }
 
 const setNamesAsync = (names) => {
-    return setAsync(namesKey, names);
+    return new Promise((resolve, reject) => {
+        return setAsync(namesKey, names).then(() => resolve()).catch(err => reject(err))
+    })
+    
 }
 
 export {

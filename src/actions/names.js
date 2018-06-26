@@ -1,4 +1,5 @@
-import {fetch_names, fetch_names_start, fetch_names_fail} from './types';
+import {fetch_names, fetch_names_no_loading,
+     fetch_names_start, fetch_names_fail} from './types';
 import {fetchNames,search} from '../api/yoruba';
 import {Actions} from 'react-native-router-flux'
 
@@ -32,3 +33,5 @@ export const fetch_success = (dispatch, namesArray) => {
         payload : namesArray
     })
 }
+
+export const fetch_names_async = 
