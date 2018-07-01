@@ -13,10 +13,10 @@ class Name extends Component {
     }
 
     renderMeaning(meaning){
-        if(meaning.includes('unknown') || meaning === null) return  null;
+        // if(meaning.includes('unknown') || meaning === null) return  null;
         return (
         <NameItem title="Itumọ (Meaning)" value={meaning}/>
-        )
+         )
     }
 
 

@@ -16,6 +16,7 @@ export const fetch_names_action = (page) => {
 
 export const fetch_names_async = () => {
     return (dispatch) => {
+        fetch_start(dispatch);
         getNamesAsync().then((names) => {
             fetch_success(dispatch, names)
         }).catch(err =>  fetch_fail(dispatch, err))
@@ -26,6 +27,7 @@ export const fetch_names_refresh = (page) => {
     return (dispatch) => {
         fetchNames(page).then((data) => {
             fetch_success(dispatch, data);
+            setPageAsync(page).then(() => {})
         }).catch(err => fetch_fail(dispatch,err));
     }
 }

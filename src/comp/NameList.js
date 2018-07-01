@@ -1,16 +1,28 @@
 import React, { Component } from 'react';
-import { View, Text, ActivityIndicator, Platform, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, ActivityIndicator, Platform, StyleSheet, FlatList, TouchableOpacity, NetInfo } from 'react-native';
 import {List, ListItem} from 'react-native-elements'
-import {fetch_names_action} from '../actions/names'
+import {fetch_names_action, fetch_names_async, fetch_names_refresh} from '../actions/names';
+import {setPageAsync, getPageAsync} from '../api/asyncApi'
 import {connect} from 'react-redux'
 import { Actions } from 'react-native-router-flux';
+import {Icon} from 'native-base'
 
 class NameList extends Component {
     state= {
         names : [],loading :false,err :'',page:1,refreshing :false
     }
     componentDidMount(){
-        this.props.fetch_names_action(this.state.page);
+        getPageAsync().then(page => {
+        //    let page = page ? page : 1;
+            this.setState({page : page})
+        })
+        NetInfo.isConnected.fetch().then(isConnected => {
+            if (isConnected){
+                return this.props.fetch_names_action(this.state.page);
+            }
+            return this.props.fetch_names_async();
+        })
+        
     }
     static getDerivedStateFromProps(nextProps, prevState){
         
@@ -39,7 +51,8 @@ class NameList extends Component {
         this.setState({
             page : this.state.page + 1
         }, () => {
-            this.props.fetch_names_action(this.state.page)
+            this.props.fetch_names_refresh(this.state.page)
+            
         })
     }
 
@@ -49,7 +62,7 @@ class NameList extends Component {
 
 
     renderContent(){
-        if(this.props.loading == true){
+        if(this.props.loading == true && this.state.names.length <= 0){
             return (
                 <View style={styles.activityViewStyle}> 
                     <ActivityIndicator size={"large"} color={"#42d827"} style={styles.indicatorStyle}/>
@@ -70,7 +83,7 @@ class NameList extends Component {
                         key = {item.id}
                         title={item.name}
                         hideChevron={true}
-                        subtitle= {item.meaning.includes('unknown') ? <Text></Text> : item.meaning}
+                        subtitle= {item.meaning}
                         />
                         </TouchableOpacity>
                     )
@@ -88,9 +101,11 @@ class NameList extends Component {
     }
     render(){
         return (
-            <View>
-                <Text>{this.props.loading}</Text>
+            <View style={styles.containerStyle}>
                 {this.renderContent()}
+                <TouchableOpacity style={styles.touchableStyle}>
+                    <Icon name="search"/>
+                </TouchableOpacity>
             </View>
         )
     }
@@ -111,6 +126,21 @@ const styles = StyleSheet.create({
     indicatorStyle : {
         alignSelf : 'center',
         top:50
+    }, 
+    touchableStyle : {
+        position :'absolute',
+        justifyContent : 'center',
+        alignItems : 'center',
+        width :70,
+        height : 70,
+        borderRadius : 50,
+        backgroundColor : '#42d827',
+        bottom : 30,
+        right : 20
+    },
+    containerStyle : {
+        display : 'flex',
+        flex :1
     }
 })
- export default connect(mapStateToProps,{fetch_names_action})(NameList);
+ export default connect(mapStateToProps,{fetch_names_action, fetch_names_async, fetch_names_refresh})(NameList);
