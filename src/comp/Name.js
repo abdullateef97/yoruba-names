@@ -6,6 +6,11 @@ import NameItem from './NameItem'
 
 
 class Name extends Component {
+    onEnter(){
+        Actions.refresh({
+            title : this.props.nameObj.name
+        })
+    }
     renderExtendedMeaning(ext){
         return (
             <NameItem title="Extended Meaning" value={ext}/>

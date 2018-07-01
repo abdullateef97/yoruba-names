@@ -103,7 +103,7 @@ class NameList extends Component {
         return (
             <View style={styles.containerStyle}>
                 {this.renderContent()}
-                <TouchableOpacity style={styles.touchableStyle}>
+                <TouchableOpacity style={styles.touchableStyle} onPress={Actions.search}>
                     <Icon name="search"/>
                 </TouchableOpacity>
             </View>
